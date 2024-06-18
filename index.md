@@ -110,8 +110,7 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 {% comment %}
 AUDIENCE
 
-Explain who your audience is.  (In particular, tell readers if the
-workshop is only open to people from a particular institution.
+This workshop is aimed at UWA researchers, from honours students to reasearch group leads and everyone in between.
 {% endcomment %}
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
@@ -270,12 +269,12 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
-
+{% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to UWA staff and students. If you are interested in attending this workshop and you're unsure if it's for you, please contact us at the email addresses above.
 </p>
-{% endcomment %}
+
 
 <hr/>
 
